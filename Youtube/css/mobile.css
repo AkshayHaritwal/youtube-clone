@@ -1,0 +1,794 @@
+@media screen and (max-width: 1326px) and (min-width: 1200px) {
+  main .sidebar .col .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.6rem 0.7rem;
+    border-radius: 10px;
+  }
+
+  main .sidebar .col .item i {
+    font-family: "Helvetica", FontAwesome, sans-serif;
+    font-size: 1.3rem;
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+    color: gray;
+  }
+
+  main .sidebar .col .item img {
+    width: 17px;
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+  }
+  main .sidebar {
+    width: 11vw;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+
+  main .main-content {
+    flex: 1;
+    padding: 0.2rem 1.5rem;
+    background-color: white;
+  }
+  main .sidebar .col {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .main-content .topic .cont-del7 {
+    display: none;
+  }
+
+  main .videos .vid-content .vid-title h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 0.7rem;
+  }
+  main .videos .vid-content .vid-channel h3 {
+    margin-left: 2.9rem;
+    font-size: 0.8rem;
+
+    padding: 0.1rem 0;
+  }
+  main .videos .vid-content .vid-channel p {
+    margin-left: 2.9rem;
+    font-size: 0.8rem;
+
+    padding: 0.2rem 0;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .navbar .nav-left .yt-icon img {
+    width: 9vw;
+  }
+  .nav-right a .nav-img-1,
+  .nav-img-2,
+  .nav-img-3,
+  .nav-img-4 {
+    margin: 0 0.8rem;
+  }
+
+  .nav-right a .nav-img-2 {
+    margin: 0 0.8rem;
+  }
+
+  .nav-right a .nav-img-3 {
+    margin: 0 0.8rem;
+  }
+
+  .nav-right a .nav-img-4 {
+    margin: 0 0.8rem;
+  }
+  .nav-middle .mid-search .search-btn {
+    height: 36px;
+  }
+
+  .nav-middle .mid-search input {
+    font-size: 1rem;
+
+    padding: 1.1rem 1.2rem;
+  }
+  .nav-middle .mic i {
+    font-size: 1.2rem;
+  }
+  .navbar .nav-left .yt-icon {
+    padding: 1rem 0.9rem 0.7rem 0.8rem;
+  }
+
+  main .sidebar .col .item {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.6rem 0.5rem;
+  }
+
+  main .sidebar .col .item img {
+    width: 17px;
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+  }
+  main .sidebar {
+    width: 11vw;
+  }
+
+  main .main-content {
+    flex: 1;
+    padding: 0.2rem 1.1rem;
+    background-color: white;
+  }
+  main .sidebar .col {
+    padding: 0.8rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .sidebar .col .item i {
+    font-size: 1.3rem;
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  main .sidebar .col .item a {
+    font-size: 1rem;
+  }
+  .sidebar::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  main .main-content .topic .cont-del7,
+  .cont-del8 {
+    display: none;
+  }
+  main .main-content .topic .content-topic {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 0.2rem;
+  }
+
+  main .videos .vid-content .vid-title h3 {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-left: 0.7rem;
+  }
+  main .videos .vid-content .vid-channel h3 {
+    margin-left: 2.9rem;
+    font-size: 0.7rem;
+
+    padding: 0.1rem 0;
+  }
+  main .videos .vid-content .vid-channel p {
+    margin-left: 2.9rem;
+    font-size: 0.7rem;
+
+    padding: 0.2rem 0;
+  }
+  main .videos .vid-content .vid-title img {
+    width: 30px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .navbar .nav-left .hem-icon i {
+    font-size: 17px;
+  }
+  .nav-middle .mid-search .search-btn i {
+    font-size: 17px;
+    padding: 1.1rem 1rem;
+  }
+  .navbar .nav-left .yt-icon img {
+    width: 12vw;
+  }
+  .nav-right a .nav-img-1 {
+    margin: 0 0.4rem;
+    width: 20px;
+  }
+
+  .nav-right a .nav-img-2 {
+    margin: 0 0.4rem;
+    width: 20px;
+  }
+
+  .nav-right a .nav-img-3 {
+    margin: 0 0.4rem;
+    width: 20px;
+  }
+
+  .nav-right a .nav-img-4 {
+    margin: 0 0.4rem;
+    height: 20px;
+    width: 20px;
+  }
+  .nav-middle .mid-search .search-btn {
+    height: 29px;
+  }
+
+  .nav-middle .mid-search input {
+    font-size: 0.9rem;
+    height: 27;
+    padding: 0.9rem 1rem;
+  }
+  .nav-middle .mic i {
+    font-size: 0.8rem;
+  }
+  .nav-middle .mic {
+    width: 33px;
+    height: 33px;
+    margin: 0 0.8rem;
+  }
+  .navbar {
+    height: 56px;
+    padding: 0 15px;
+  }
+  .nav-middle {
+    width: 52vw;
+  }
+  .navbar .nav-left .yt-icon {
+    padding: 0.8rem 0.7rem 0.5rem 0.7rem;
+  }
+
+  main .sidebar .col .item {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.6rem 0.5rem;
+  }
+
+  main .sidebar .col .item img {
+    width: 15px;
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+  }
+  main .sidebar {
+    width: 13vw;
+  }
+
+  main .main-content {
+    flex: 1;
+    padding: 0.2rem 0.6rem;
+    background-color: white;
+  }
+  main .sidebar .col {
+    padding: 0.8rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .sidebar .col .item i {
+    font-size: 1rem;
+    margin-right: 0;
+    margin-bottom: 0.6rem;
+  }
+
+  main .sidebar .col .item a {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  main .sidebar .col .item p {
+    font-size: 0.6rem;
+  }
+
+  .sidebar::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  main .main-content .topic .cont-del7,
+  .cont-del8,
+  .cont-del9,
+  .cont-del6 {
+    display: none;
+  }
+  main .main-content .topic .content-topic {
+    padding: 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 0 0.2rem;
+  }
+
+  main .videos .vid-content .vid-title h3 {
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin-left: 0.6rem;
+  }
+  main .videos .vid-content .vid-channel h3 {
+    margin-left: 2.2rem;
+    font-size: 0.6rem;
+
+    padding: 0.1rem 0;
+  }
+  main .videos .vid-content .vid-channel p {
+    margin-left: 2.2rem;
+    font-size: 0.6rem;
+
+    padding: 0.2rem 0;
+  }
+  main .videos .vid-content .vid-title img {
+    width: 24px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 450px) {
+  .navbar .nav-left .hem-icon i {
+    font-size: 13px;
+  }
+  .nav-middle .mid-search .search-btn i {
+    font-size: 13px;
+    padding: 0.8rem 0.6rem;
+  }
+  .navbar .nav-left .yt-icon img {
+    width: 15vw;
+  }
+  .nav-right a .nav-img-1 {
+    margin: 0 0.2rem;
+    width: 14px;
+  }
+
+  .nav-right a .nav-img-2 {
+    margin: 0 0.2rem;
+    width: 14px;
+  }
+
+  .nav-right a .nav-img-3 {
+    margin: 0 0.2rem;
+    width: 14px;
+  }
+
+  .nav-right a .nav-img-4 {
+    margin: 0 0.2rem;
+    height: 14px;
+    width: 14px;
+  }
+  .nav-middle .mid-search .search-btn {
+    height: 22px;
+  }
+
+  .nav-middle .mid-search input {
+    font-size: 0.8rem;
+    height: 24px;
+    padding: 0.3rem 0.5rem;
+  }
+  .nav-middle .mic i {
+    font-size: 0.6rem;
+  }
+  .nav-middle .mic {
+    width: 23px;
+    height: 23px;
+    margin: 0 0.6rem;
+  }
+  .navbar {
+    height: 52px;
+    padding: 0 10px;
+  }
+  .nav-middle {
+    width: 56vw;
+  }
+  .navbar .nav-left .yt-icon {
+    padding: 0.7rem 0.6rem 0.4rem 0.6rem;
+  }
+  .navbar .nav-left .hem-icon {
+    padding: 0.4rem;
+  }
+
+  main .sidebar .col .item {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.4rem 0.4rem;
+  }
+
+  main .sidebar .col .item i {
+    font-size: 0.6rem;
+    margin-right: 0;
+    margin-bottom: 0.6rem;
+  }
+
+  main .sidebar .col .item img {
+    width: 13px;
+    margin-right: 0;
+    margin-bottom: 0.6rem;
+  }
+  main .sidebar {
+    width: 16vw;
+  }
+
+  main .main-content {
+    flex: 1;
+    padding: 0.2rem 0.5rem;
+    background-color: white;
+  }
+  main .sidebar .col {
+    padding: 0.7rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .sidebar .col .item a {
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+  main .sidebar .col .item p {
+    font-size: 0.5rem;
+  }
+  .sidebar::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  main .main-content .topic .cont-del7,
+  .cont-del8,
+  .cont-del9,
+  .cont-del6,
+  .cont-del5,
+  .cont-del4 {
+    display: none;
+  }
+  main .main-content .topic .content-topic {
+    padding: 0.3rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+    margin: 0 0.2rem;
+  }
+
+  main .videos .vid-content .vid-title h3 {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-left: 1rem;
+  }
+  main .videos .vid-content .vid-channel h3 {
+    margin-left: 2.4rem;
+    font-size: 0.7rem;
+
+    padding: 0.1rem 0;
+  }
+  main .videos .vid-content .vid-channel p {
+    margin-left: 2.4rem;
+    font-size: 0.7rem;
+
+    padding: 0.2rem 0;
+  }
+  main .videos .vid-content .vid-title img {
+    width: 28px;
+    border-radius: 50%;
+  }
+  main .videos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  main .videos .vid-content .cont-img img {
+    width: 60vw;
+    border-radius: 20px;
+  }
+  main .main-content .topic {
+    top: 51px;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 300px) {
+  .navbar .nav-left .hem-icon i {
+    font-size: 10px;
+  }
+  .nav-middle .mid-search .search-btn i {
+    font-size: 8px;
+    padding: 0.2rem 0.4rem;
+  }
+  .navbar .nav-left .yt-icon img {
+    width: 15vw;
+  }
+  .nav-right a .nav-img-1 {
+    margin: 0 0.1rem;
+    width: 10px;
+  }
+
+  .nav-right a .nav-img-2 {
+    margin: 0 0.1rem;
+    width: 10px;
+  }
+
+  .nav-right a .nav-img-3 {
+    margin: 0 0.1rem;
+    width: 10px;
+  }
+
+  .nav-right a .nav-img-4 {
+    margin: 0 0.1rem;
+    height: 10px;
+    width: 10px;
+  }
+  .nav-middle .mid-search .search-btn {
+    height: 16px;
+  }
+
+  .nav-middle .mid-search input {
+    font-size: 0.6rem;
+    height: 18px;
+    padding: 0.2rem 0.4rem;
+  }
+  .nav-middle .mic i {
+    font-size: 0.6rem;
+  }
+  .nav-middle .mic {
+    width: 16px;
+    height: 16px;
+    margin: 0 0.6rem;
+  }
+  .navbar {
+    height: 40px;
+    padding: 0 7px;
+  }
+  .nav-middle {
+    width: 60vw;
+  }
+  .navbar .nav-left .yt-icon {
+    padding: 0.5rem 0.4rem 0.1rem 0.4rem;
+  }
+  .navbar .nav-left .hem-icon {
+    padding: 0.2rem;
+  }
+
+  main .sidebar .col .item {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.4rem 0.4rem;
+  }
+
+  main .sidebar .col .item i {
+    font-size: 0.4rem;
+    margin-right: 0;
+    margin-bottom: 0.4rem;
+  }
+
+  main .sidebar .col .item img {
+    width: 9px;
+    margin-right: 0;
+    margin-bottom: 0.4rem;
+  }
+  main .sidebar {
+    width: 16vw;
+  }
+
+  main .main-content {
+    flex: 1;
+    padding: 0.2rem 0.3rem;
+    background-color: white;
+  }
+  main .sidebar .col {
+    padding: 0.6rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .sidebar .col .item a {
+    font-size: 0.4rem;
+    font-weight: 500;
+  }
+  main .sidebar .col .item p {
+    font-size: 0.3rem;
+    font-weight: 400;
+  }
+  .sidebar::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  main .main-content .topic .cont-del7,
+  .cont-del8,
+  .cont-del9,
+  .cont-del6,
+  .cont-del5,
+  .cont-del4,
+  .cont-del3 {
+    display: none;
+  }
+  main .main-content .topic .content-topic {
+    padding: 0.2rem;
+    font-size: 0.4rem;
+    font-weight: 500;
+    margin: 0 0.1rem;
+  }
+  main .main-content .topic {
+    padding: 0 0;
+  }
+  main .videos .vid-content .vid-title h3 {
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin-left: 0.6rem;
+  }
+  main .videos .vid-content .vid-channel h3 {
+    margin-left: 2.2rem;
+    font-size: 0.6rem;
+  
+    padding: 0.1rem 0;
+  }
+  main .videos .vid-content .vid-channel p {
+    margin-left: 2.2rem;
+    font-size: 0.6rem;
+  
+    padding: 0.2rem 0;
+  }
+  main .videos .vid-content .vid-title img {
+    width: 24px;
+    border-radius: 50%;
+  }
+  main .videos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  main .videos .vid-content .cont-img img {
+    width: 64vw;
+    border-radius: 20px;
+  }
+  main .main-content .topic {
+    top: 38px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 300px) {
+  .navbar .nav-left .hem-icon i {
+    font-size: 8px;
+  }
+  .nav-middle .mid-search .search-btn i {
+    font-size: 6px;
+    padding: 0rem 0.3rem;
+  }
+  .navbar .nav-left .yt-icon img {
+    width: 15vw;
+  }
+  .nav-right a .nav-img-1 {
+    margin: 0 0.1rem;
+    width: 9px;
+  }
+
+  .nav-right a .nav-img-2 {
+    margin: 0 0.1rem;
+    width: 9px;
+  }
+
+  .nav-right a .nav-img-3 {
+    margin: 0 0.1rem;
+    width: 9px;
+  }
+
+  .nav-right a .nav-img-4 {
+    margin: 0 0.1rem;
+    height: 9px;
+    width: 9px;
+  }
+  .nav-middle .mid-search .search-btn {
+    height: 13px;
+  }
+
+  .nav-middle .mid-search input {
+    font-size: 0.6rem;
+    height: 15px;
+    padding: 0.2rem 0.4rem;
+  }
+  .nav-middle .mic i {
+    font-size: 0.5rem;
+  }
+  .nav-middle .mic {
+    width: 14px;
+    height: 14px;
+    margin: 0 0.6rem;
+  }
+  .navbar {
+    height: 40px;
+    padding: 0 7px;
+  }
+  .nav-middle {
+    width: 60vw;
+  }
+  .navbar .nav-left .yt-icon {
+    padding: 0.5rem 0.4rem 0.1rem 0.3rem;
+  }
+  .navbar .nav-left .hem-icon {
+    padding: 0.1rem;
+  }
+
+  main .sidebar .col .item {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.3rem 0.3rem;
+  }
+
+  main .sidebar .col .item i {
+    font-size: 0.3rem;
+    margin-right: 0;
+    margin-bottom: 0.3rem;
+  }
+
+  main .sidebar .col .item img {
+    width: 7px;
+    margin-right: 0;
+    margin-bottom: 0.3rem;
+  }
+  main .sidebar {
+    width: 17vw;
+  }
+
+  main .main-content {
+    flex: 1;
+    padding: 0.2rem 0.2rem;
+    background-color: white;
+  }
+  main .sidebar .col {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .sidebar .col .item a {
+    font-size: 0.3rem;
+    font-weight: 500;
+  }
+  main .sidebar .col .item p {
+    font-size: 0.2rem;
+    font-weight: 400;
+  }
+  .sidebar::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  main .main-content .topic .cont-del7,
+  .cont-del8,
+  .cont-del9,
+  .cont-del6,
+  .cont-del5,
+  .cont-del4 {
+    display: none;
+  }
+  main .main-content .topic .content-topic {
+    padding: 0.1rem;
+    font-size: 0.3rem;
+    font-weight: 400;
+    margin: 0 0.1rem;
+  }
+  main .main-content .topic {
+    padding: 0 0;
+  }
+
+  main .videos .vid-content .vid-title h3 {
+    font-size: 0.5rem;
+    font-weight: 500;
+    margin-left: 0.6rem;
+  }
+  main .videos .vid-content .vid-channel h3 {
+    margin-left: 2.2rem;
+    font-size: 0.5rem;
+
+    padding: 0.1rem 0;
+  }
+  main .videos .vid-content .vid-channel p {
+    margin-left: 2.2rem;
+    font-size: 0.5rem;
+
+    padding: 0.2rem 0;
+  }
+  main .videos .vid-content .vid-title img {
+    width: 24px;
+    border-radius: 50%;
+  }
+  main .videos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  main .videos .vid-content .cont-img img {
+    width: 64vw;
+    border-radius: 20px;
+  }
+  main .main-content .topic {
+    top: 38px;
+  }
+}
